@@ -16,7 +16,7 @@ body {
   max-width: 1440px;
   max-height: 1200px;
   display: flex;
-  background-image: url(/images/pattern-background-desktop.svg);
+  background-image: url(https://raw.githubusercontent.com/antEater3005/Order-Summary/03428837b3d96fd9abfacd4fd0b723ec82002d19/images/pattern-background-desktop.svg);
   background-repeat: repeat-x;
   align-items: center;
   background-color: hsl(225, 100%, 94%);
