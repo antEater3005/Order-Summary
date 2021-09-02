@@ -1,0 +1,123 @@
+body {
+  /* margin: 0px; */
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+.mainback {
+  display: flex;
+  width: 100%;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  max-height: 1200px;
+  display: flex;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  align-items: center;
+  background-color: hsl(225, 100%, 94%);
+  justify-content: center;
+  border-radius: 6px;
+}
+.mainbox {
+  background-color: rgba(255, 251, 246, 0.726);
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 580px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.hero {
+  width: 100%;
+  height: 37%;
+  background-image: url(/images/illustration-hero.svg);
+  background-size: contain;
+  align-self: flex-start;
+
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0px 0px;
+  margin: 0;
+}
+.os {
+  font-size: 23px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bolder;
+  margin: 10px 0px 10px 0px;
+  align-self: center;
+}
+.para {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  color: rgb(76, 77, 78);
+}
+.ap {
+  position: relative;
+  display: flex;
+  width: 75%;
+  border-radius: 10px;
+  background-color: hsla(241, 100%, 77%, 0.062);
+  align-self: center;
+  padding: 15px 15px;
+  margin-top: 20px;
+}
+
+.map {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.change {
+  position: relative;
+  align-self: center;
+  margin-left: 65px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+.change:hover{
+  text-decoration: none;
+  opacity: .7;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+#price {
+  font-size: 16px;
+  color: rgb(76, 77, 78);
+}
+.apmain {
+  margin-left: 10px;
+}
+.proceed {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin: 0px 40px;
+  margin-top: 25px;
+  padding: 12px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px hsla(245, 75%, 52%, 0.356);
+}
+.proceed:hover{
+  opacity: .7;
+  transition-duration: 200ms;
+   cursor: pointer;
+}
+.cancel {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  color: rgb(117, 117, 117);
+}
+.cancel:hover{
+  cursor: pointer;
+  color: rgb(44, 44, 44);
+  transition-duration: 200ms;
+  
+}
