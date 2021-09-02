@@ -35,7 +35,7 @@ body {
 .hero {
   width: 100%;
   height: 37%;
-  background-image: url(/images/illustration-hero.svg);
+  background-image: url(https://github.com/antEater3005/Order-Summary/blob/master/images/illustration-hero.svg);
   background-size: contain;
   align-self: flex-start;
 
