@@ -80,9 +80,9 @@ body {
   text-decoration: underline;
   color: hsl(245, 75%, 52%);
 }
-.change:hover{
+.change:hover {
   text-decoration: none;
-  opacity: .7;
+  opacity: 0.7;
   cursor: pointer;
   transition-duration: 200ms;
 }
@@ -104,10 +104,10 @@ body {
   border-radius: 10px;
   box-shadow: 0px 10px 10px hsla(245, 75%, 52%, 0.356);
 }
-.proceed:hover{
-  opacity: .7;
+.proceed:hover {
+  opacity: 0.7;
   transition-duration: 200ms;
-   cursor: pointer;
+  cursor: pointer;
 }
 .cancel {
   text-align: center;
@@ -115,14 +115,8 @@ body {
   font-weight: 600;
   color: rgb(117, 117, 117);
 }
-.cancel:hover{
+.cancel:hover {
   cursor: pointer;
   color: rgb(44, 44, 44);
   transition-duration: 200ms;
-  
-}
-@media (width:375px){
-  .back{
-    background-image: url(https://raw.githubusercontent.com/antEater3005/Order-Summary/6d148cf41845c966934f6e1c52f6eae4e9e8d52f/images/pattern-background-mobile.svg);
-  }
 }
